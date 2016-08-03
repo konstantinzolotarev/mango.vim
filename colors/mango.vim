@@ -27,6 +27,7 @@
   let BlackBold = "guifg=#121212 guibg=NONE gui=NONE ctermfg=233 ctermbg=NONE cterm=bold"
   let DarkRed = "guifg=#af0000 guibg=NONE gui=NONE ctermfg=124 ctermbg=NONE cterm=NONE"
   let DarkRedBold = "guifg=#af0000 guibg=NONE gui=NONE ctermfg=124 ctermbg=NONE cterm=bold"
+  let DarkRedBoldUnderline = "guifg=#af0000 guibg=NONE gui=NONE ctermfg=124 ctermbg=NONE cterm=bold,underline"
   let Green = "guifg=#00af00 guibg=NONE gui=NONE ctermfg=34 ctermbg=NONE cterm=NONE"
   let Gray = "guifg=#bcbcbc guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE cterm=NONE"
   let Blue = "guifg=#5fafdf guibg=NONE gui=NONE ctermfg=74 ctermbg=NONE cterm=NONE"
@@ -84,6 +85,7 @@
     exe "hi jsGlobalNodeObjects " .DarkBlueBold
     exe "hi jsVariableDef "   .Turquoise
     exe "hi jsBuiltins "      .DarkBlue
+    exe "hi jsClassDefinition " .DarkRedBoldUnderline
 
     hi link jsObjectKey jsObjectStringKey
 
