@@ -89,6 +89,10 @@
 
     hi link jsObjectKey jsObjectStringKey
 
+    " CoffeeScript
+    exe "hi coffeeSpecialVar " .Turquoise
+    "
+
     hi Visual       guifg=NONE      guibg=#d0d0d0   gui=NONE      ctermfg=NONE      ctermbg=110       cterm=NONE
     hi CursorLine   guifg=NONE      guibg=#d0d0d0   gui=NONE      ctermfg=NONE      ctermbg=230       cterm=NONE
     hi ColorColumn  guifg=#ff0000   guibg=#d0d0d0   gui=NONE      ctermfg=203       ctermbg=252       cterm=NONE
